@@ -1,0 +1,15 @@
+{
+  "name": "functional-hangman",
+  "version": "0.0.1",
+  "description": "A mostly-complete, mostly functional hangman game for a coding lesson",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Will Demaine",
+  "license": "ISC",
+  "dependencies": {
+    "prompt": "^1.0.0",
+    "ramda": "^0.19.1"
+  }
+}
