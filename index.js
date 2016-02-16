@@ -1,8 +1,8 @@
 var prompt = require('prompt');
 var Game = require('./game.js');
 var Word = require('./word.js');
+var dictionary = require('./basic-words.json');
 
-var dictionary = ['cat', 'dog', 'code', 'javascript', 'for', 'smarties'];
 var targetWord = pickRandomWord(dictionary);
 
 function pickRandomWord(wordList) {
